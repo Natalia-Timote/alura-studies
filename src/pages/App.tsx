@@ -6,6 +6,7 @@ import style from './App.module.scss';
 function App() {
   return (
     <div className={style.AppStyle}>
+      <h1 className="title">Alura Studies</h1>
       <Formulario />
       <Lista />
     </div>

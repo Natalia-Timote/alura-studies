@@ -73,19 +73,29 @@ button {
 	color: inherit; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
 	display: flex;
 	justify-content: center;
-	font-family: 'Manjari', sans-serif;
-  font-weight: 400;
+	font-family: "Moderustic", sans-serif;
+  	font-weight: 400;
 	color: #333333;
 	background-color: #FFE5E5;
 	height: 100%;
 	width: 100%;
 	padding: 16px;
 	box-sizing: border-box;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+  	font-weight: 400;
+	font-size: 4em;
+	padding: 16px;
+	text-align: center;
+	color: #756AB6;
 }
 
 #root {

@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: min-content min-content auto;
     grid-template-areas: 
+    "title"
     "nova-tarefa"
     "cronometro"
     "tarefas"
@@ -17,6 +18,7 @@
   
     @media screen and (min-width:1280px)  {
       grid-template-areas: 
+      "title title"
       "nova-tarefa tarefas"
       "cronometro tarefas"
       ;
@@ -27,4 +29,5 @@
       align-content: center;
       padding: 64px;
     }
+
   }
