@@ -2,6 +2,7 @@ import React from 'react';
 import Formulario from '../components/Formulario';
 import Lista from '../components/Lista';
 import style from './App.module.scss';
+import Cronometro from '../components/Cronometro';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1 className="title">Alura Studies</h1>
       <Formulario />
       <Lista />
+      <Cronometro />
     </div>
   );
 }
