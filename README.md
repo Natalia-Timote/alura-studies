@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+## 📚 Alura Studies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Alura Studies** é uma aplicação desenvolvida em **React com TypeScript** que ajuda na organização dos estudos. Você pode **adicionar o que deseja estudar, definir o tempo de dedicação e iniciar um contador** para manter o foco em cada atividade.
 
-## Available Scripts
+![Static Badge](https://img.shields.io/badge/Conclu%C3%ADdo-label?style=for-the-badge&label=Status) ![Static Badge](https://img.shields.io/badge/Alura-label?style=for-the-badge&label=Curso&color=%23000080)
 
-In the project directory, you can run:
+<hr>
 
-### `npm start`
+## 🚀 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto foi desenvolvido durante o curso da Alura:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* "React: escrevendo com Typescript"
+  
+O **Alura Studies** tem como objetivo praticar a criação de aplicações **React com TypeScript** do zero, aplicando conceitos de **componentização, props e state**, além de boas práticas como **DRY (Don't Repeat Yourself) e SRP (Single Responsibility Principle)**. A aplicação utiliza **hooks (useState e useEffect) e CSS Modules** para manter o código organizado, limpo e modular.
 
-### `npm test`
+## 📚 Objetivos do Curso
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Criar um projeto **React com Typescript** do zero com Create React App;
+* Entender conceitos de React como **Componentização, Props e State**;
+* Evitar sobreposições de CSS com **CSS Modules**;
+* Aprender sobre os **hooks useState e useEffect** e entender como eles eram usados nos class components;
+* Deixar o código mais limpo e documentado com a forma mais atual de se escrever React;
+* Desenvolver código com conceitos de boas práticas como **DRY (Don't repeat yourself) e SRP (Single Responsibility Principle)**.
 
-### `npm run build`
+## 🛠️ Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="80" height="80"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Visualização do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uma prévia das principais funcionalidades do **Alura Studies**:
 
-### `npm run eject`
+**🌐 Acesse o Projeto Online**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O projeto está disponível para visualização na **Vercel**. Clique no link abaixo para acessar:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="https://alura-studies-three-iota.vercel.app/" target="_blank">![Static Badge](https://img.shields.io/badge/Vercel-project?style=for-the-badge&color=A91079)</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**📨 Página do Projeto**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Página inicial onde os usuários podem adicionar seus estudos, definir o tempo e acompanhar o contador em tempo real.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./src/assets/img/alura-studies-home.png" alt="Página da Alura Studies" width="600"/>
